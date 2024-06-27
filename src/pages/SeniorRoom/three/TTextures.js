@@ -1,0 +1,11 @@
+import { TextureLoader } from "three";
+const textureLoader = new TextureLoader();
+export const tipTexture = textureLoader.load("./imgs/VRimgB/tip.png");
+export const frontTexture = textureLoader.load("./imgs/VRimgB/front.png");
+export const backTexture = textureLoader.load("./imgs/VRimgB/back.png");
+export const leftTexture = textureLoader.load("./imgs/VRimgB/left.png");
+export const rightTexture = textureLoader.load("./imgs/VRimgB/right.png");
+export const topTexture = textureLoader.load("./imgs/VRimgB/top.png");
+export const bottomTexture = textureLoader.load("./imgs/VRimgB/bottom.png");
+export const livingRoomTexture = textureLoader.load("./imgs/VRimgB/livingRoom.jpg");
+export const kitchenRoomTexture = textureLoader.load("./imgs/VRimgB/kitchen.jpg");

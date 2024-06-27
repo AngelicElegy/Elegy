@@ -1,0 +1,11 @@
+{
+    // 联想提示
+    "compilerOptions":{
+        "baseUrl":"./",
+        "paths":{
+            "@/*":[
+                "src/*"
+            ]
+        }
+    }
+}

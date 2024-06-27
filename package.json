@@ -1,0 +1,45 @@
+{
+  "name": "hotel_manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "core-js": "^3.21.1",
+    "element-plus": "^2.0.4",
+    "gsap": "^3.11.3",
+    "jwt-decode": "^3.1.2",
+    "three": "^0.140.2",
+    "vue": "^3.2.31",
+    "vue-loader-v16": "^16.0.0-beta.5.4",
+    "vue-router": "^4.0.13",
+    "vuex": "^4.0.2",
+    "wangeditor": "^4.7.12",
+    "webpack": "4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "@vue/cli-plugin-eslint": "^4.5.15",
+    "@vue/cli-plugin-router": "^4.5.15",
+    "@vue/cli-plugin-vuex": "^4.5.15",
+    "@vue/cli-service": "^4.5.15",
+    "@vue/compiler-sfc": "^3.2.31",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^7.20.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^8.0.2"
+  },
+  "rules": {
+    "generator-star-spacing": "off",
+    "no-tabs": "off",
+    "no-unused-vars": "off",
+    "no-console": "off",
+    "no-irregular-whitespace": "off",
+    "no-debugger": "off"
+  }
+}
